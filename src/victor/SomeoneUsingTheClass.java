@@ -6,4 +6,8 @@ public class SomeoneUsingTheClass {
    public SomeoneUsingTheClass(TheClass theClass) {
       this.theClass = theClass;
    }
+
+   public void method() {
+      theClass.publicMethod();
+   }
 }
